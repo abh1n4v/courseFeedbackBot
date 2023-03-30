@@ -1,5 +1,5 @@
 # courseFeedbackBot
-Fills all the sections as "Excellent" and fills the remarks as "Very good class"
+Fills all the sections as "Excellent" and fills the remarks as "Very good"
 
 Open up the Course Feedback tab in Academia and refresh it to reset all values. 
 
