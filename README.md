@@ -17,16 +17,16 @@ python simple.py
 ```
 if Python is not found:
 
-'''
+```
 python3 simple.py
-'''
+```
 ex:
-'''
+```
 C:\Users\admin>cd Desktop\Downloads
-'''
-'''
+```
+```
 C:\Users\admin\Desktop\Downloads\python simple.py
-'''
+```
 
 4. Wait for the prompt and fill in number of theory and practical courses.
 Click on the first empty field (under Punctuality in Theory Courses) and wait a few seconds
