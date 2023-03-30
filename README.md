@@ -1,29 +1,23 @@
 # courseFeedbackBot
-Fills all the sections as "Excellent" and fills the remarks as "Very good"
+Fills all the sections as either "Excellent" or "Very Good" and fills the remarks as "Good class"
 
-Open up the Course Feedback tab in Academia and refresh it to reset all values. 
-
+Open Course Feedback in Academia 
 To run the bot:
 1. Type the following command in your terminal/command prompt to install pynput module:
 
 ```
 pip install pynput
 ```
-2. Download 'filler.py' file from the repository
-
-3. In terminal, go to the directory where filler.py has been saved and enter: 
 ```
-python3 filler.py
+python simple.py
 ```
-if python is not detected, enter:
-```
-python filler.py
-```
+if Python is not found:
+'''
+python3 simple.py
+'''
 
-4. Wait for the prompt,enter number of theory and practical courses according to the website, then select the first empty field under Theory and press shift within 10 seconds to start.
+2. Wait for the prompt and fill in number of theory and practical courses.
+Click on the first empty field (under Punctuality in Theory Courses) and wait a few seconds
 
- Note : Windows may detect the script as a threat due to KeyLogging. This is because this program checks if the user inputs 'Shift' on keyboard. Click on the notification that pops up and click on 'Allow on Device' under Threat and Security Settings.
 
-5. Wait for a few seconds. The script will fill in the website.
-
-6. Press 'shift' again to stop the bot. Warning: You will have to restart from the first field once script is interrupted.
+3. Now, relax and enjoy as the bot fills the feedback form for you.
