@@ -17,7 +17,7 @@ def on_press(key):
 def main():
     t = int(input("Enter number of Theory Courses: "))
     p = int(input("Enter number of Practical courses: "))
-    print("Click on the first field and press Shift. Press Shift again to Terminate")
+    print("Click on the first field and press Shift. Press Shift again to Interrupt.")
     time.sleep(5)
     for _ in range(t):
         for i in range(14):
@@ -45,6 +45,7 @@ def main():
             pressTab(2)
 
     print("Process Complete. You may close the terminal.")
+    print("Star the repo if it helped ;)")
         
 paused = True
 thread = threading.Thread(target=main)
