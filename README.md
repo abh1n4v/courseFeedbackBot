@@ -12,7 +12,7 @@ python3 filler.py
 ```
 2. Wait for the prompt "Click on the first field" then select the first field and press shift to start.
 
-Note : In windows, after executing the python file, a notification pops up, click it and select 'Allow on Device'.
+ Note : In windows, after executing the python file, a notification pops up, click it and select 'Allow on Device'.
 
 3. Now, relax and enjoy as the bot fills the feedback form for you.
 
