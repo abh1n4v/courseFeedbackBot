@@ -23,7 +23,7 @@ def main():
         for i in range(14):
             if not paused:
                 keyboard.type('ex')
-                time.sleep(1.6)
+                time.sleep(2)
                 pressTab(1)
 
         if not paused:
