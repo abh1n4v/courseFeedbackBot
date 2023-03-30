@@ -1,55 +1,39 @@
-from pynput.keyboard import Key, Controller, Listener
+from pynput.keyboard import Key, Controller
 from pynput import keyboard
+import random
 import time
-import threading
 
 keyboard = Controller()
 
 def pressTab(n):
     for i in range(n):
         keyboard.tap(Key.tab)
+        time.sleep(0.1)
 
-def on_press(key):
-    global paused
-    if "shift" in str(key):
-        paused = not paused
+def randomizer():
+    random_list = ['ex','ve']
+    return random.choice(random_list)
 
-def main():
+def fill(n,m):
+    for i in range(n):
+        for _ in range (m):
+            keyboard.type(randomizer())
+            time.sleep(2)
+            pressTab(1)
+        keyboard.type('Good class')
+        pressTab(2)
+
+def main():        
     t = int(input("Enter number of Theory Courses: "))
-    p = int(input("Enter number of Practical courses: "))
-    print("Click on the first field and press Shift. Press Shift again to Interrupt.")
+    p = int(input("Enter number of Practical Courses: "))
+
+    print("Click on the first field within 10 seconds")
     time.sleep(10)
-    for _ in range(t):
-        for i in range(14):
-            if not paused:
-                keyboard.type('ex')
-                time.sleep(2)
-                pressTab(1)
-
-        if not paused:
-            keyboard.type('Very good')
-            pressTab(2)
-    
-    if not paused:
+    while(True):
+        fill(t,14)
         pressTab(1)
+        fill(p,13)
+        print("Script Stopped")
+        break
 
-    for _ in range(p):
-        for i in range(13):
-            if not paused:
-                keyboard.type('ex')
-                time.sleep(2)
-                pressTab(1)
-
-        if not paused:
-            keyboard.type('Very good')
-            pressTab(2)
-
-    print("Process Complete. You may close the terminal.")
-    print("Star the repo if it helped ;)")
-        
-paused = True
-thread = threading.Thread(target=main)
-thread.start()
-
-with Listener(on_press = on_press) as listener:
-    listener.join()
+main()
