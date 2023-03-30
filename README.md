@@ -10,6 +10,10 @@ pip install pynput
 ```
 python3 filler.py
 ```
-2. Wait for the prompt "Click on the first field" and then select the first field and wait
+2. Wait for the prompt "Click on the first field" then select the first field and press shift to start.
 
-3. Relax and enjoy as the bot fills the feedback form for you.
+Note : In windows, after executing the python file, a notification pops up, click it and select 'Allow on Device'.
+
+3. Now, relax and enjoy as the bot fills the feedback form for you.
+
+4. Press 'shift' again to stop the bot.
