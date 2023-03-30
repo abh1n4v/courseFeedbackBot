@@ -20,7 +20,7 @@ if python is not detected, enter:
 python filler.py
 ```
 
-4. Wait for the prompt,enter number of theory and practical courses according to the website, then select the first empty field under Theory and press shift to start.
+4. Wait for the prompt,enter number of theory and practical courses according to the website, then select the first empty field under Theory and press shift within 10 seconds to start.
 
  Note : Windows may detect the script as a threat due to KeyLogging. This is because this program checks if the user inputs 'Shift' on keyboard. Click on the notification that pops up and click on 'Allow on Device' under Threat and Security Settings.
 
