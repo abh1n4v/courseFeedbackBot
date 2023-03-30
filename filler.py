@@ -18,7 +18,7 @@ def main():
     t = int(input("Enter number of Theory Courses: "))
     p = int(input("Enter number of Practical courses: "))
     print("Click on the first field and press Shift. Press Shift again to Interrupt.")
-    time.sleep(5)
+    time.sleep(10)
     for _ in range(t):
         for i in range(14):
             if not paused:
