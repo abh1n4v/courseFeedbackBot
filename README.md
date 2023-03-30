@@ -25,7 +25,7 @@ ex:
 C:\Users\admin>cd Desktop\Downloads
 ```
 ```
-C:\Users\admin\Desktop\Downloads\python simple.py
+C:\Users\admin\Desktop\Downloads>python simple.py
 ```
 
 4. Wait for the prompt and fill in number of theory and practical courses.
