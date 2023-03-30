@@ -15,15 +15,6 @@ def skipTwo():
     pressTab()
     pressTab()
 
-def fill_feedback():
-    for i in range(14):
-        keyboard.type('ex')
-        time.sleep(1.5)
-        pressTab()
-
-    keyboard.type('Very good')
-    skipTwo()
-
 def on_press(key):
     global paused
     if "shift" in str(key):
@@ -33,8 +24,16 @@ def main():
     print("Click on the first field")
     time.sleep(5)
     while(True):
+        for i in range(14):
+            if not paused:
+                keyboard.type('ex')
+                time.sleep(2)
+                pressTab()
+
         if not paused:
-            fill_feedback()
+            keyboard.type('Very good')
+            skipTwo()
+
 
 paused = True
 thread = threading.Thread(target=main)
