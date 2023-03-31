@@ -9,11 +9,11 @@ def pressTab(n):
     for i in range(n):
         keyboard.tap(Key.tab)
         time.sleep(0.1)
-
+# to select random options between Excellent and VeryGood. 
 def randomizer():
     random_list = ['ex','ve']
     return random.choice(random_list)
-
+#function to fill option on the site.
 def fill(n,m):
     for i in range(n):
         for _ in range (m):
@@ -28,6 +28,7 @@ def main():
     p = int(input("Enter number of Practical Courses: "))
 
     print("Click on the first field within 10 seconds")
+   # To give a pause of 10sec to switch from program to chrome tab.
     time.sleep(10)
     while(True):
         fill(t,14)
