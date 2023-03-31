@@ -11,7 +11,7 @@ def pressTab(n):
         time.sleep(0.1)
 # to select random options between Excellent and VeryGood. 
 def randomizer():
-    random_list = ['ex','ve','go']
+    random_list = ['ex','ex','ex','ve','ve','go']
     return random.choice(random_list)
 #function to fill option on the site.
 def fill(n,m):
