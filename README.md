@@ -12,7 +12,7 @@ pip install pynput
 ```
 2. Download the simple.py file and save it as a python file
 
- NOTE: WHILE SAVING MAKE SURE THE SAVED FILE HAS .PY EXTENTION AS WINDOWS WILL SAVE IT AS A .TXT FILE
+ NOTE: WHILE SAVING MAKE SURE THE SAVED FILE HAS .PY EXTENTION AND CHANGE 'SAVE AS FILE' TO 'ALL FILES'
 
 3. In your terminal, go to the directory where you saved simple.py and type:
 ```
