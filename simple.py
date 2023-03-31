@@ -11,7 +11,7 @@ def pressTab(n):
         time.sleep(0.1)
 
 def randomizer():
-    random_list = ['ex','ve']
+    random_list = ['ex','ve','go']
     return random.choice(random_list)
 
 def fill(n,m):
