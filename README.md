@@ -30,7 +30,7 @@ C:\Users\admin\Desktop\Downloads>python simple.py
 ```
 
 4. Wait for the prompt and fill in number of theory and practical courses.
-Click on the first empty field (under Punctuality in Theory Courses) and wait a few seconds
+Quickly Click on the first empty field (under Punctuality in Theory Courses) and wait a few seconds
 
 
 5. Now, relax and enjoy as the bot fills the feedback form for you.
